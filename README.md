@@ -1,13 +1,13 @@
 # 1. Test cases
-- Check the registration link exists (**Priority Blocker**, from user's perspective it is critical the link should exist)
+- Check the registration link exists (**Priority Highest**, from user's perspective it is critical the link should exist, it is the positive coverage)
   1. Open the [base url](https://parabank.parasoft.com/parabank/index.htm) --> the hompage is shown
   2. the registration link is existed  
 
-- Click registration link then sign up form shown (**Priority Blocker**, from user's perspective it is critical the form should exist)
+- Click registration link then sign up form shown (**Priority Highest**, from user's perspective it is critical the form should exist, it is the positive coverage)
   1. Open the [base url](https://parabank.parasoft.com/parabank/index.htm) --> the hompage is shown
   2. click the registration link --> the sign up form is shown
 
-- Click register button when the form is empty (**Priority High**, if the user misclick but the form not filled correctly there should be the error message)
+- Click register button when the form is empty (**Priority High**, if the user misclick but the form not filled correctly there should be the error message, it is the negative coverage)
   1. Open the [base url](https://parabank.parasoft.com/parabank/index.htm) --> the hompage is shown
   2. click the registration link --> the sign up form is shown
   3. click the register button --> error message shown to insert all the mandatory input
@@ -18,7 +18,7 @@
   3. insert all the input with correct values
   4. click the register button --> registration is successful
 
-- Register new user with incorrect values (**Priority High**, if the valus type is incorrect there should be the error message)
+- Register new user with incorrect values (**Priority High**, if the valus type is incorrect there should be the error message, it is the negative coverage)
   1. Open the [base url](https://parabank.parasoft.com/parabank/index.htm) --> the hompage is shown
   2. click the registration link --> the sign up form is shown
   3. insert first name with numbers, special characters --> the error message should be shown
@@ -28,6 +28,12 @@
   7. insert phone number with letters, special characters, incorrect length of numbers --> the error message should be shown
   8. insert username with special characters --> the error message should be shown
   9. insert password with unacceptable length, missing mandatory characters --> the error message should be shown
+
+- Login with wrong username and password (**Priority High**, it is the negative coverage)
+  1. Open the [base url](https://parabank.parasoft.com/parabank/index.htm) --> the hompage is shown
+  2. insert wrong username --> username inserted
+  3. insert wrong password --> password inserted
+  4. click the login button --> the error message should be shown
 
 # 2. Automation tests folder structure
 - ## Selenium4, Python, Pytest to build the automation test framework

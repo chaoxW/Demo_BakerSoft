@@ -80,7 +80,7 @@
 # 4. Report bug with old documentation
 
 Hello Developer  
-Currently I am testing the registration form, I may find an issue and I want to confirm with you
+Currently I am testing the registration form, I may find an issue and I want to confirm with you  
 The issue is that the zipcode input which could accept the *letters, special characters, incorrect length of numbers* as input, I have already checked the documentation we have but I do not find relevant
 information about this input restriction  
 Here are the steps to reproduce the issue

@@ -37,6 +37,7 @@
 
 # 2. Automation tests folder structure
 - ## Selenium4, Python, Pytest to build the automation test framework
+- ## we can also evaluate Cypress, WebdriverIO, Playwright to build the automation test framework depends on the requirments from the product.
 #### Run test with `pytest Tests/test_LoginPage.py -v --html=./report.html` from command 
 #### You can watch the `demo1.mov` and `demo2.mov` to see the test execution and test report, you can also check the report `report.html`
 

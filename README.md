@@ -33,6 +33,7 @@
 # 2. Automation tests folder structure
 ## Selenium4, Python, Pytest to build the automation test framework
 #### Run test with `pytest Tests/test_LoginPage.py -v --html=./report.html` from command 
+#### You can watch the demo1.mov and demo2.mov to see the test execution and test report 
     
     ├── Config
     │   ├── __init__.py

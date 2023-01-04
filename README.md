@@ -1,5 +1,4 @@
 # 1. Test cases
-
 - Check the registration link exists (**Priority Blocker**, from user's perspective it is critical the link should exist)
   1. Open the [base url](https://parabank.parasoft.com/parabank/index.htm) --> the hompage is shown
   2. the registration link is existed  
@@ -31,9 +30,10 @@
   9. insert password with unacceptable length, missing mandatory characters --> the error message should be shown
 
 # 2. Automation tests folder structure
-## Selenium4, Python, Pytest to build the automation test framework
+- ## Selenium4, Python, Pytest to build the automation test framework
 #### Run test with `pytest Tests/test_LoginPage.py -v --html=./report.html` from command 
 #### You can watch the demo1.mov and demo2.mov to see the test execution and test report 
+
     
     ├── Config
     │   ├── __init__.py
@@ -63,7 +63,7 @@
     └── requirements.txt
     
 # 3. Automation tests 
-## the tests automated should be always repeatable to guarantee there is no regression issue, we should make automation tests as much as possible to increase the test coverage for the product
+### the tests automated should be always repeatable and guarantee there is no regression issue, we should make automation tests as much as possible to increase the test coverage for the product
     
 - test_signup_link_visible
 - test_login_page_title

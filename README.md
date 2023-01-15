@@ -39,7 +39,11 @@
 - ## Selenium4, Python, Pytest to build the automation test framework
 - ## we can also evaluate Cypress, WebdriverIO, Playwright to build the automation test framework depends on the requirments from the product.
 #### Run test with `pytest Tests/test_LoginPage.py -v --html=./report.html` from command 
-#### You can watch the `demo1.mov` and `demo2.mov` to see the test execution and test report, you can also check the report `report.html`
+#### You can watch the `demo1.mov` and `demo2.mov` to see the test execution and test report, 
+#### You can also check the report `report.html`
+
+<img width="1658" alt="image" src="https://user-images.githubusercontent.com/38011268/212568539-815ec183-b8a0-470a-bd48-02b9ad79e3b6.png">
+
 
     
     ├── Config
